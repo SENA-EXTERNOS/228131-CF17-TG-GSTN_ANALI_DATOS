@@ -388,7 +388,7 @@
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Google Charts]
-            p(data-aos="fade-down") proporciona una manera eficaz de visualizar datos en un sitio web. Desde gráficos de líneas simples hasta mapas de árboles jerárquicos complejos, la galería de gráficos de Google Charts proporciona una gran cantidad de tipos de gráficos listos para usar. La forma más común de usar Google Charts es con JavaScript, incrustado en la página web, cargando algunas bibliotecas de gráficos de Google, enumerando los datos que se van a graficar, seleccionando opciones para personalizar el gráfico y finalmente creando un objeto de gráfico con la identificación que elija. Luego, más adelante en la página web, creando un div con esa identificación para mostrar el gráfico de Google.         
+            p(data-aos="fade-down") Proporciona una manera eficaz de visualizar datos en un sitio #[em web]. Desde gráficos de líneas simples hasta mapas de árboles jerárquicos complejos, la galería de gráficos de #[em Google Charts] proporciona una gran cantidad de tipos de gráficos listos para usar. La forma más común de usar #[em Google Charts] es con #[em JavaScript], incrustado en la página #[em web], cargando algunas bibliotecas de gráficos de #[em Google], enumerando los datos que se van a graficar, seleccionando opciones para personalizar el gráfico y finalmente creando un objeto de gráfico con la identificación que elija. Luego, más adelante en la página #[em web], creando un div con esa identificación para mostrar el gráfico de #[em Google].         
             .row
               .col-lg-12
                 a.anexo.mb-4(:href="obtenerLink('/downloads/googlecharts.pdf')" target="_blank")
@@ -453,7 +453,7 @@
           .col-md-6.mb-4.mb-md-0
             h3 #[em Qlik Desktop]
             p(data-aos="fade-down") Es una aplicación, para el sistema operativo #[em Windows], que permite crear visualizaciones, gráficos, cuadros de mando interactivos (#[em dashboards]) e informes para uso local y sin conexión. Esta herramienta, está desarrollada con el lenguaje de programación R, lenguaje de código abierto usado para el análisis estadístico y procesos de ciencias de datos.
-            p(data-aos="fade-right") Su aplicación va desde los temas relacionados con finanzas y recursos humanos, hasta de marketing y ventas. Procesos que diariamente generan datos valiosos y susceptibles de ser explorados y aprovechados para hacer más competitiva la organización.
+            p(data-aos="fade-right") Su aplicación va desde los temas relacionados con finanzas y recursos humanos, hasta de #[em marketing] y ventas. Procesos que diariamente generan datos valiosos y susceptibles de ser explorados y aprovechados para hacer más competitiva la organización.
           .col-md-6
             .titulo-sexto.color-acento-contenido
               h5 Figura 13
@@ -467,7 +467,7 @@
           .col-md-6.mb-4.mb-md-0
             h3 #[em Plotly]
             p(data-aos="fade-down") Es una librería de código abierto disponible para varios lenguajes entre ellos #[em Python], #[em Java], R y #[em Matlab], entre otros. Por lo general, es más utilizada en #[em Python] al ser este uno de los lenguajes más populares para desarrollo relacionados con #[em machine learning] e inteligencia artificial. Esta librería, soporta más de 40 tipos diferentes de gráficos para uso estadístico, financiero, geográfico y científico.
-            p(data-aos="fade-right") #[em Plotly] permite a los usuarios de Python crear visualizaciones interactivas basadas en #[em web] que pueden ser usadas en un cuaderno #[em Jupyter], guardadas como archivos HTML independientes o incluidas en aplicaciones web construidas con #[em Python] y la librería #[em mDASH].
+            p(data-aos="fade-right") #[em Plotly] permite a los usuarios de #[em Python] crear visualizaciones interactivas basadas en #[em web] que pueden ser usadas en un cuaderno #[em Jupyter], guardadas como archivos HTML independientes o incluidas en aplicaciones #[em web] construidas con #[em Python] y la librería #[em MDASH].
           .col-md-6
             .titulo-sexto.color-acento-contenido
               h5 Figura 14
@@ -542,22 +542,23 @@
           img(src="@/assets/curso/temas/tema1/img36.svg", alt="alt").m-auto 
       .col-lg-9
         TabsA.color-acento-botones.mb-5
-          .tarjeta.clr-paleYellow.p-4(titulo="Establecer el objetivo del <em>dashboard</em>")     
+          .tarjeta.clr-paleYellow.p-4(titulo="Establecer el objetivo del <em>dashboard</em>")(style="background-color: #DBEEFE")
             h4 Establecer el objetivo del
               em  dashboard
             p Para iniciar la creación del tablero de control es necesario saber cuál es el objetivo de éste, qué pregunta (o preguntas) de la organización queremos responder. Por ejemplo, ¿la organización quiere analizar las ventas para mejorarlas e incrementarlas para mejorar los ingresos?, ¿se quiere hacer seguimiento al avance y ejecución de los proyectos?
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Identificar el público objetivo")
+          .tarjeta.clr-paleYellow.p-4(titulo="Identificar el público objetivo")(style="background-color: #DBEEFE")
             h4 Identificar el público objetivo
             p Es importante tener claridad sobre objetivo del 
               em  dashboard
               |  a diseñar. Cada área de la organización y sus colaboradores, tendrá diferentes conocimientos e intereses, y si esto no se tiene en cuenta, se corre el riesgo de presentar en ellos información diferente a la requerida o en términos que no sean fáciles de entender. 
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Definir las métricas")
+          .tarjeta.clr-paleYellow.p-4(titulo="Definir las métricas")(style="background-color: #DBEEFE")
             h4 Definir las métricas         
             p Se deben seleccionar las principales métricas que ayuden a dar respuesta a las preguntas formuladas o que estén relacionadas. Si el indicador seleccionado no aporta a la temática en cuestión, posiblemente genere ruido en la visualización y deba ser eliminado. Entre los indicadores seleccionados es importante incluir los KPI (#[em Key Performance Indicators]) o indicadores clave de desempeño utilizados por la organización para evaluar su éxito en alcanzar diversos objetivos.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Diseñar e implementar el <em>dashboard</em>")
+          .tarjeta.clr-paleYellow.p-4(titulo="Diseñar e implementar el <em>dashboard</em>")(style="background-color: #DBEEFE")
+            h4 Diseñar e implementar el #[em dashboard]
             p Una vez definidas las métricas e información a presentar, y teniendo en cuenta la herramienta a emplear, se definirán las herramientas gráficas adecuadas según el tipo de información y el público objetivo. Es muy importante, antes de publicar el acceso al tablero de control, validar la calidad y veracidad de la información presentada, confirmar que las visualizaciones seleccionadas se muestran correctamente y que la información presentada responde a los objetivos definidos en el primer paso.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12

@@ -4,10 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     p En la siguiente figura se encuentra, de manera sintetizada, todos los temas vistos y aprendidos en este componente formativo. Le sirve como guía para recordar cada contenido y así cumplir de manera satisfactoria las respectivas actividades a desarrollar.:
-    .titulo-sexto.color-acento-botones
-      h5 Gestión de analítica de datos
-      br
-      span Síntesis: #[em visualización de datos]
+    
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
