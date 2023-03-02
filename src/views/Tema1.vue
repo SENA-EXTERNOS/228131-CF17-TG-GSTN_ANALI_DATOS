@@ -12,7 +12,7 @@
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
           .bloque-texto-g__img(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img1.png')})`}")
           .bloque-texto-g__texto.p-4
-            p En la actualidad, la visualización de datos es un tema fundamental cuando se habla de procesos de ciencia de datos, #[em big data] e inteligencia de negocios, ya que esta representación gráfica de información y datos brinda una manera accesible de ver y entender tendencias, identificar valores atípicos y patrones en los datos utilizados. Algunos ejemplos comunes de visualizaciones gráficas son: gráficos de barras, líneas de tiempo, gráficos de línea, diagramas de dispersión, diagramas de #[em Venn], entre otros.
+            p En la actualidad, la visualización de datos es un tema fundamental cuando se habla de procesos de ciencia de datos, <em>Big data</em> e inteligencia de negocios, porque esta representación gráfica de información y datos, brinda una manera accesible de ver y entender tendencias, identificar valores atípicos y patrones en los datos utilizados. Algunos ejemplos comunes de visualizaciones gráficas son: gráficos de barras, líneas de tiempo, gráficos de línea, diagramas de dispersión, diagramas de Venn, entre otros.
    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -22,7 +22,7 @@
           span #[em Tipos de visualización de datos]
         figure
           img(src="@/assets/curso/temas/tema1/img2.svg", alt="alt")
-          figcaption Nota. Reproducida de ejemplos de gráficas para un dashboard. TuDashboard (2 de agosto de 2021). 
+          figcaption Nota. Adaptada de ejemplos de gráficas para un dashboard ( 2021).
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
         p(data-aos="fade-right") Las siguientes son algunas de las ventajas al procesar los datos a través de gráficos:
@@ -45,7 +45,7 @@
                 p.mb-0 Las diversas herramientas disponibles para la visualización de datos, permiten con gran facilidad la difusión de las representaciones visuales de datos con todos los actores de la compañía. Esto sumado al uso de las aplicaciones móviles y las aplicaciones web, favorece la movilidad y la interacción en tiempo real.
             .row.justify-content-center.mb-4(titulo="Reducción de complejidad / carga de trabajo del equipo")
               .col-10
-                p.mb-0 Gracias a las herramientas de visualización, el análisis de datos deja de ser una tarea exclusiva del equipo tecnológico y cada vez más personas pueden participar de este proceso pues dichas visualizaciones les permiten a los interesados utilizar la información de un modo más intuitivo.
+                p.mb-0 Gracias a las herramientas de visualización, el análisis de datos deja de ser una tarea exclusiva del equipo tecnológico y cada vez más personas pueden participar de este proceso, pues dichas visualizaciones le permiten a los interesados, utilizar la información de un modo más intuitivo.
         .col-lg-4
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/temas/tema1/img3.svg", alt="alt").img400.m-auto
@@ -60,7 +60,7 @@
           .col-lg-12
             .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
               p(data-aos="fade-down").mb-4 Las visualizaciones de datos por lo general necesitan algo de narración como complemento o contexto para que los datos se vuelvan procesables y entendibles, lo cual es una de las principales características de las infografías. Por otro lado, ayudan a complementar y soportar las historias contadas en las infografías. Es importante que las visualizaciones de datos creadas sean concisas, claras y convincentes y eso se logra eliminando cualquier elemento extra que pueda interferir con el análisis de la información y seleccionando el tipo de gráfica adecuado. 
-        p A continuación, se presenta una infografía que le permitirá entender la relación entre los datos, la funcionalidad y el diseño para la realización de excelentes visualizaciones de datos:
+        p A continuación, se presenta una infografía que le permitirá entender la relación entre los datos, su funcionalidad y diseño, para la realización de excelentes visualizaciones de datos:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2
@@ -71,55 +71,50 @@
         ImagenInfografica.color-secundario.mb-5
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema1/img5.png', alt='') 
+              img(src='@/assets/curso/temas/tema1/img5.svg', alt='') 
           .tarjeta.p-3(x="18%" y="27%" numero="")            
-            .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")              
-              ul.lista-ul
+            .row.justify-content-center.align-items-center.p-3(style="background-color:#FFF7DE")              
+              ul.lista-ul.mb-0
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Find an interesting topic].
+                  | Encuentre un tema de interés.
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Look for an angle / purpose].
+                  | Seleccione un objetivo o propósito.
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Collect and organize].
+                  | Recolecte y organice la información. 
           
           .tarjeta.p-3(x="82%" y="27%" numero="")            
-            .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")              
-              ul.lista-ul
+            .row.justify-content-center.align-items-center.p-3(style="background-color:#FFF7DE")              
+              ul.lista-ul.mb-0
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Accuratery represent data].
+                  |Represente con precisión los datos.
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Make it clear and legible].
+                  |Hágalos claros y legibles.
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Make it purposeful and useful].
+                  |Haga que sean útiles y tengan sentido.
           .tarjeta.p-3(x="50%" y="85%" numero="")            
-            .row.justify-content-center.align-items-center.mb-5.p-3(style="background-color:#FFF7DE")
-              ul.lista-ul
+            .row.justify-content-center.align-items-center.p-3(style="background-color:#FFF7DE")
+              ul.lista-ul.mb-0
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Sketch out your process].
+                  |Esboce el proceso y posibles gráficas.
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Create an impactful visual].
+                  |Cree una imagen impactante.
                 li
                   i.fas.fa-chevron-right(style="color:#000000")
-                  |#[em Find a balance with form and function].
+                  |Encuentre el equilibrio entre forma y función.
 
-    Separador
-
-    .row
-      .col-xl-12       
-    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.1	 Selección de gráficos según el tipo de datos
+    h3(data-aos="zoom-in-left").my-5  Selección de gráficos según el tipo de datos
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p(data-aos="fade-right") Existen incontables tipos diferentes de gráficos, tablas y visualizaciones de datos disponibles para que analistas y científicos de datos puedan representar y transmitir datos importantes. Los diversos tipos de gráficos sirven para agilizar y mejorar la interpretación de los datos, pero no todos son apropiados para el mismo trabajo y por eso es importante diferenciar estos y sus usos recomendados.
-        p(data-aos="fade-right") Para poder decidir de manera acertada que tipo de visualización de datos utilizar, es necesario comprender las principales funciones que la visualización de datos puede cumplir. A continuación, se mencionan algunas de estas funciones:
+        p(data-aos="fade-right") Existen incontables tipos diferentes de gráficos, tablas y visualizaciones de datos, disponibles para que analistas y científicos de datos puedan representar y transmitir información importante. Los diversos tipos de gráficos sirven para agilizar y mejorar la interpretación de los datos, pero no todos son apropiados para el mismo trabajo y, por esta razón, es importante diferenciar estos y sus usos recomendados.
+        p(data-aos="fade-right") Para poder decidir de manera acertada, qué tipo de visualización de datos utilizar, se hace necesario comprender las principales funciones que este proceso puede cumplir. A continuación, se mencionan algunas de estas funciones:
       .col-lg-4
         figure
           img(src='@/assets/curso/temas/tema1/img6.png', alt='')
@@ -138,7 +133,7 @@
             figure
               img(src='@/assets/curso/temas/tema1/img8.png', alt='')
           .col-md-6
-            p Esta función permite separar los conjuntos de valores para así mostrar cómo las unidades individuales afectan la imagen general. Por ejemplo, una organización puede necesitar visualizar desde qué ciudades o regiones del país proceden sus ventas o qué categoría de productos es la más comprada del total de ventas realizadas en un periodo de tiempo. En este caso, son de gran utilidad las gráficas de pastel, gráficos de barras apiladas y gráficas de área.
+            p Esta función permite separar los conjuntos de valores, para mostrar cómo las unidades individuales afectan la imagen general. Por ejemplo, una organización puede necesitar visualizar desde qué ciudades o regiones del país proceden sus ventas o, qué categoría de productos es la más comprada del total de ventas realizadas en un periodo de tiempo. En este caso, son de gran utilidad las gráficas de pastel, gráficos de barras apiladas y gráficas de área.
       .py-3.py-md-4(titulo="Determinar la distribución")
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-5
@@ -165,28 +160,28 @@
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 Tablas
-            p(data-aos="fade-down").mb-4 Las tablas son una de las formas de visualización más empleadas que permiten presentar los datos como filas y columnas para ver detalles y comparar valores. Por lo general, las columnas corresponden a atributos o propiedades del elemento descrito y las filas corresponden a registros independientes de dicho elemento. Este tipo de visualización, permite también realizar filtros para mostrar solo la información de interés u ordenar los valores según alguno de los atributos seleccionados.
+            p(data-aos="fade-down").mb-4 Las tablas son una de las formas de visualización más empleadas, permiten presentar los datos en filas y columnas para ver detalles y comparar valores. Por lo general, las columnas corresponden a atributos o propiedades del elemento descrito y las filas corresponden a registros independientes de dicho elemento. Este tipo de visualización, permite también realizar filtros para mostrar solo la información de interés, o de ordenar los valores, según algunos de los atributos seleccionados.
                 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img12.png', alt='')
+              img(src='@/assets/curso/temas/tema1/1.svg', alt='')
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 Gráficos de barras
-            p(data-aos="fade-down").mb-4 Es una forma de representar gráficamente un conjunto de datos o variables mediante el uso de barras rectangulares (verticales u horizontales) con longitudes proporcionales a los valores que representan. Se utilizan como una forma de resumir un conjunto de datos por categorías (variable cualitativa) generalmente ubicadas en el eje horizontal “X” y su frecuencia de aparición ubicada en el eje vertical “Y”.
+            p(data-aos="fade-down").mb-4 Es una forma de representar gráficamente un conjunto de datos o variables, mediante el uso de barras rectangulares (verticales u horizontales) con longitudes proporcionales a los valores que representan. Se utilizan como una forma de resumir un conjunto de datos por categorías (variable cualitativa), generalmente ubicadas en el eje horizontal “X” y su frecuencia de aparición ubicada en el eje vertical “Y”.
                 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img13.png', alt='')
+              img(src='@/assets/curso/temas/tema1/2.svg', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 Gráficos de líneas
-            p(data-aos="fade-down").mb-4 Son especialmente útiles para mostrar tendencias a lo largo de un periodo de tiempo. Un gráfico de línea, permite mostrar una o varias series de datos en la misma figura permitiendo así comparar sus comportamientos. Se representan dibujando primero los puntos de los datos según sus valores y luego conectado una línea entre dichos puntos. Se utilizan generalmente para representar datos continuos.
+            p(data-aos="fade-down").mb-4 Son especialmente útiles para mostrar tendencias a lo largo de un periodo de tiempo. Un gráfico de línea, permite mostrar una o varias series de datos en la misma figura, posibilitando la comparación entre sus comportamientos. Se representan dibujando primero, los puntos de los datos según sus valores y luego conectando una línea entre dichos puntos. Se utilizan generalmente, para representar datos continuos.
                 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img14.png', alt='')
+              img(src='@/assets/curso/temas/tema1/3.svg', alt='')
 
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -195,56 +190,58 @@
                 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img15.png', alt='')
+              img(src='@/assets/curso/temas/tema1/4.svg', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 Mapas de calor
-            p(data-aos="fade-down").mb-4 (#[em heatmap] en inglés) es una forma de visualización en formato tabular donde además de los números se utiliza el color de las celdas para transmitir la magnitud relativa de los valores. En los mapas de calor, se puede usar la saturación del color para proporcionar pistas visuales que ayuden a localizar más fácilmente los puntos de interés (valores límites, por ejemplo). Por lo general, se utilizan los colores más oscuros para indicar baja actividad y los colores más brillantes para indicar alta actividad.
+            p(data-aos="fade-down").mb-4 Mapa de calor o <i>heatmap</i>, es una forma de visualización en formato tabular en donde, además de los números, se utiliza el color de las celdas para transmitir la magnitud relativa de los valores. En los mapas de calor, se puede usar la saturación del color para proporcionar pistas visuales que ayuden a localizar más fácilmente los puntos de interés (valores límites, por ejemplo). Por lo general, se utilizan los colores más oscuros para indicar baja actividad y los colores más brillantes para indicar alta actividad.
                 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img16.png', alt='')
+              img(src='@/assets/curso/temas/tema1/5.svg', alt='')
+              figcaption Nota. Reproducida de @analisisweb. Recuperado el 17 de noviembre de 2022
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 Gráficos de dispersión
-            p(data-aos="fade-down").mb-4 (#[em scatterplot] en inglés) permiten mostrar la relación entre dos variables ya que se pueden configurar de tal forma que una variable se muestre sobre el eje horizontal X y la otra sobre el eje vertical Y, y ver así si existe una relación. Si los elementos graficados forman una franja que se extiende desde la parte inferior izquierda hasta la parte superior derecha, lo más probable es que exista una correlación positiva entre esas dos variables. Si es difícil ver un patrón, es probable que no haya una correlación entre las variables graficadas.
+            p(data-aos="fade-down").mb-4 Gráfico de dispersión o <i>scatterplot</i>, permite mostrar la relación entre dos variables porque se pueden configurar de tal forma, que una variable se muestre sobre el eje horizontal X y, la otra sobre el eje vertical Y y, de esta manera, visualizar si existe una relación. Si los elementos graficados forman una franja que se extiende desde la parte inferior izquierda hasta la parte superior derecha, lo más probable es que haya una correlación positiva entre esas dos variables. Si es difícil ver un patrón, es probable que no se tenga una correlación entre las variables graficadas.
                 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img17.png', alt='')
+              img(src='@/assets/curso/temas/tema1/6.svg', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Treemap]
-            p(data-aos="fade-down").mb-4 Un gráfico de árbol proporciona una visión jerárquica de los datos y facilita la detección de patrones. Por ejemplo, qué artículos son los más vendidos de una tienda. Las ramas del árbol están representadas por rectángulos y cada subrama se muestra como un rectángulo más pequeño. El gráfico de árbol muestra las categorías por color y proximidad y puede mostrar fácilmente muchos datos que serían difíciles con otros tipos de gráficos. Los gráficos de mapa de árbol son buenos para comparar las proporciones dentro de la jerarquía. Sin embargo, no son buenos para mostrar los niveles jerárquicos entre las categorías más grandes y cada punto de datos. 
+            p(data-aos="fade-down").mb-4 Un gráfico de árbol, proporciona una visión jerárquica de los datos y facilita la detección de patrones. Por ejemplo, en una tienda, cuáles artículos son los más vendidos. Las ramas del árbol están representadas por rectángulos y cada subrama se muestra como un rectángulo más pequeño. El gráfico de árbol muestra las categorías por color y proximidad y puede mostrar fácilmente, muchos datos que serían difíciles de ver con otros tipos de gráficos. Los gráficos de mapa de árbol son buenos para comparar las proporciones dentro de la jerarquía. Sin embargo, no son buenos para mostrar los niveles jerárquicos entre las categorías más grandes y cada punto de datos. 
                 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img18.png', alt='')
+              img(src='@/assets/curso/temas/tema1/7.svg', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 Diagrama de caja
-            p(data-aos="fade-down").mb-4 O box plot en inglés, es un tipo de gráfico que permite visualizar y comparar la distribución y la tendencia central de valores numéricos mediante sus cuartiles. Estos, son los tres valores de la variable que dividen a un conjunto de datos ordenados en cuatro partes iguales.
+            p(data-aos="fade-down").mb-4 El diagrama de caja o <i>box plot</i>, es un tipo de gráfico que permite visualizar y comparar la distribución y la tendencia central de valores numéricos mediante sus cuartiles, los cuales son los tres valores de la variable que dividen a un conjunto de datos ordenados, en cuatro partes iguales.
                 
           .col-md-6
             figure
-              img(src='@/assets/curso/temas/tema1/img19.png', alt='')
+              img(src='@/assets/curso/temas/tema1/8.svg', alt='')
 
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[EM Geomaps]
-            p(data-aos="fade-down").mb-4 O gráficos de mapa, se utilizan habitualmente para comparar valores y mostrar categorías entre regiones geográficas. Los gráficos de mapa, son más útiles cuando los datos contienen información geográfica (países, regiones, estados, ciudades, códigos postales, etc.). Utilizando herramientas gratuitas como #[em Google Maps], se pueden elaborar visualizaciones de datos geográficos en mapas interactivos y responsivos, teniendo mayor control sobre cómo se ubican los puntos en el mapa.
+            p(data-aos="fade-down").mb-4 Los gráficos de mapa o <i>geomaps</i>, se utilizan, habitualmente, para comparar valores y mostrar categorías entre regiones geográficas. Los gráficos de mapa, son más útiles cuando los datos contienen información geográfica (países, regiones, estados, ciudades, códigos postales, etc.). Utilizando herramientas gratuitas como Google Maps, se pueden elaborar visualizaciones de datos geográficos en mapas interactivos y responsivos, teniendo mayor control sobre cómo se ubican los puntos en el mapa.
                 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img20.png', alt='')
+              figcaption Nota. Adapatao de Maptive (2020). 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-10(style="border:solid 5px #F6F6F6;border-radius:15px;")
-        .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.p-5(style="border:solid 5px #F6F6F6;border-radius:15px;")
+        .row.justify-content-center.align-items-center
           .col-lg-3
             figure
               img(src='@/assets/curso/temas/tema1/img21.png', alt='')
@@ -256,20 +253,15 @@
               .anexo__texto
                 p Enlace #[em web]. #[em Microsoft] - Cursos
 
-    Separador
-
-    .row
-      .col-xl-12       
-    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.2	 Herramientas de creación de visualización (estáticas e interactivas)
+    h3(data-aos="zoom-in-left").my-5  Herramientas de creación de visualización (estáticas e interactivas)
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
-        p Para poder sacar partido de las grandes cantidades de información que produce la organización y extraer de ésta conclusiones e #[em insights] de valor, es necesario aprovechar al máximo las herramientas que la ciencia de datos pone a disposición, entre ellas, la visualización de datos. Estas, permiten interpretar los datos de manera más sencilla y visual, facilitando así su entendimiento y comunicación. La visualización de datos es utilizada en diferentes fases de proceso de ciencia de datos, al principio como herramienta para explorar y analizar los datos recibidos y empezar a encontrar en estos relaciones o comportamientos y en las fases finales como un instrumento que permite mostrar con mayor facilidad los resultados obtenidos o poner a disposición de los #[em stakeholders], gráficos dinámicos, tablas y controles que pueda manipular para explorar de cuenta propia la información.
+        p Para poder sacar partido de las grandes cantidades de información que produce la organización y extraer de estas, conclusiones e <i>insights</i> de valor, se hace necesario aprovechar al máximo las herramientas que la ciencia de datos pone a disposición, como la visualización de datos. Estas, permiten interpretar los datos de manera más sencilla y visual, facilitando así su entendimiento y comunicación. La visualización de datos es utilizada en diferentes fases del proceso de ciencia de datos; al principio, como herramienta para explorar y analizar los datos recibidos y empezar a encontrar en estos, relaciones o comportamientos y, en las fases finales, como un instrumento que permite mostrar con mayor facilidad, los resultados obtenidos o poner a disposición de los <i>stakeholders</i>, gráficos dinámicos, tablas y controles que pueda manipular para explorar de cuenta propia la información.
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
             .cajon.color-acento-botones.cajon--amarillo-1.p-3.p-sm-4
-              p(data-aos="fade-down").mb-4 Según sea la fase del proyecto de ciencia de datos o el objetivo que se busca con la visualización, existen diferentes herramientas (gratuitas y pagas) que los científicos de datos y los analistas pueden aprovechar para realizar este proceso. Algunas de estas herramientas permiten realizar gráficas estáticas adecuadas para la realización de reportes o cuándo la información no cambia en el tiempo. Otras permiten generar gráficas dinámicas que se pueden editar y que en algunas ocasiones toman sus datos de fuentes de información dinámica y por tanto variable en el tiempo.
+              p(data-aos="fade-down").mb-4 Según sea la etapa del proyecto de ciencia de datos o el objetivo que se busca con la visualización, existen diferentes herramientas (gratuitas y pagas) que los científicos de datos y los analistas pueden aprovechar para realizar este proceso. Algunas de estas herramientas permiten realizar gráficas estáticas adecuadas para la generación de reportes, o cuándo la información no cambia en el tiempo. Otras permiten hacer gráficas dinámicas que se pueden editar y que, en algunas ocasiones, toman sus datos de fuentes de información dinámica y, por lo tanto, variable en el tiempo.
         p Algunas de estas herramientas para la visualización de datos son:
       .col-lg-4
         figure(data-aos="zoom-in")
@@ -280,19 +272,15 @@
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Excel]
-            p(data-aos="fade-down") Es un programa de hoja de cálculo lanzado por la empresa #[em Microsoft] en el año de 1987. Es un #[em software] multiplataforma (funciona en sistemas operativos como #[em Windows], #[em MacOS], #[em Android] y #[em iOS]) que permite crear tablas, gráficos y otras visualizaciones. Permite, de igual manera de una forma sencilla y rápida, crear visualizaciones a partir de los datos existentes y personalizarlos a gusto del usuario, pero tiene en su contra el no estar diseñado ni optimizado para manipular grandes cantidades de datos como puede ser requerido en la mayoría de proyectos de ciencia de datos. 
-            p(data-aos="fade-down") En sus últimas versiones el número total de filas y columnas en una hoja de cálculo es de 1.048.576 filas por 16.384 columnas. En caso de requerirse más filas (más registros), es necesario usar otra hoja u otro archivo de #[em Excel], volviendo más complejo el procesamiento de la información.
+            p(data-aos="fade-down") Es un programa de hoja de cálculo, lanzado por la empresa Microsoft en el año de 1987. Es un <i>software</i> multiplataforma (funciona en sistemas operativos como Windows, MacOS, Android, iOS), que permite crear tablas, gráficos y otras visualizaciones. Facilita, de igual manera, de una forma sencilla y rápida, crear visualizaciones a partir de los datos existentes y personalizarlos, a gusto del usuario, pero tiene en su contra, el no estar diseñado ni optimizado para manipular grandes cantidades de datos, como puede ser requerido en la mayoría de los proyectos de ciencia de datos. 
+            p(data-aos="fade-down") En sus últimas versiones el número total de filas y columnas en una hoja de cálculo es de 1.048.576 filas por 16.384 columnas. En caso de requerirse más filas (más registros), es necesario usar otra hoja u otro archivo de Excel, volviendo más complejo el procesamiento de la información.
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 8
-              br
-              span #[em Interfaz Microsoft Excel]
             figure
               img(src='@/assets/curso/temas/tema1/img23.png', alt='')
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Tableau]
-            p(data-aos="fade-down") Es una de las herramientas de visualización más completas y utilizadas que existen en la actualidad. Gracias a su interfaz, permite generar fácilmente visualizaciones a partir de grandes volúmenes de datos. Aunque es una herramienta paga con versiones para móvil, escritorio y soluciones en la nube, #[em Tableau] también cuenta con una versión pública gratuita que le permite al aprendiz explorar la herramienta y sacar provecho de la gran variedad de funciones y tipos de visualizaciones que tiene disponibles, además de compartirlas en línea.
+            p(data-aos="fade-down") Es una de las herramientas de visualización más completas y utilizadas que existen en la actualidad. Gracias a su interfaz, permite generar fácilmente visualizaciones a partir de grandes volúmenes de datos. Aunque es una herramienta paga con versiones para móvil, escritorio y soluciones en la nube, Tableau también cuenta con una versión pública gratuita que le permite al aprendiz explorar la herramienta y sacar provecho de la gran variedad de funciones y tipos de visualizaciones que tiene disponibles, además de compartirlas en línea. 
             p(data-aos="fade-down") La versión académica puede ser consultada en el siguiente enlace:
             .row
               .col-lg-8
@@ -304,14 +292,9 @@
             p(data-aos="fade-down") Para crear una visualización básica de datos en Tableau, se deben seguir los siguientes pasos:
             
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 9
-              br
-              span #[em Interfaz Tableau]
             figure
               img(src='@/assets/curso/temas/tema1/img24.png', alt='')
-            figcaption Nota. Reproducida de Tableau Desktop. Insights at the speed of business (s.f). 
-
+              figcaption Nota. Tomada de Tableau Desktop (s.f). https://www.tableau.com/sites/default/files/2022-05/Products_Desktop_Intro.png 
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Tableau]
@@ -322,7 +305,7 @@
                     .lista-ol--cuadro__vineta
                       span 1                    
               .col-xl-11
-                p #[b Conectar los datos]: se deben seleccionar y recopilar los datos que se utilizan para la visualización. La plataforma #[em Tableau] permite conectar diversas fuentes de datos como hojas de cálculo, bases de datos y archivos planos los cuales pueden ser visualizados directamente desde la herramienta para seleccionar los atributos requeridos.
+                p #[b Conectar los datos]: se deben seleccionar y recopilar los datos que se utilizan para la visualización. La plataforma Tableau permite conectar diversas fuentes de datos como hojas de cálculo, bases de datos y archivos planos, los cuales pueden ser visualizados directamente desde la herramienta, para seleccionar los atributos requeridos.
             .row
               .col-xl-1
                 ol.lista-ol--cuadro
@@ -330,7 +313,7 @@
                     .lista-ol--cuadro__vineta
                       span 2                    
               .col-xl-11
-                p #[b Crear una vista]: una vista es una visualización creada en #[em Tableau], la cual puede ser un cuadro, un gráfico, un mapa o una tabla de texto. La creación de vistas debe partir de la pregunta ¿Qué desea saber la organización?
+                p #[b Crear una vista]: una vista es una visualización creada en Tableau, la cual puede ser un cuadro, un gráfico, un mapa o una tabla de texto. La creación de vistas debe partir de la pregunta ¿qué desea saber la organización?
             .row
               .col-xl-1
                 ol.lista-ol--cuadro
@@ -338,57 +321,46 @@
                     .lista-ol--cuadro__vineta
                       span 3                    
               .col-xl-11
-                p #[b Explorar los datos]: una vez generada la vista, ésta puede ser explorada modificando sus parámetros, aumentando o disminuyendo el nivel de detalles y aplicando filtros.
+                p #[b Explorar los datos]: una vez generada la vista, esta puede ser explorada modificando sus parámetros, aumentando o disminuyendo el nivel de detalles y aplicando filtros.
   
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 9
-              br
-              span #[em Interfaz Tableau]
             figure
               img(src='@/assets/curso/temas/tema1/img24.png', alt='')
-            figcaption Nota. Reproducida de Tableau Desktop. Insights at the speed of business (s.f).
+            figcaption Nota. Tomada de Tableau Desktop (s.f). https://www.tableau.com/sites/default/files/2022-05/Products_Desktop_Intro.png 
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Power BI]
-            p(data-aos="fade-down") Es una herramienta de inteligencia de negocios, basada en la nube, que permite enlazar diferentes fuentes de datos, analizarlos y presentar dicho análisis a través de informes y paneles. #[em Power BI], está disponible a través de aplicación de escritorio, como #[em SaaS] (#[em Software as a Service]) y como aplicación móvil para teléfonos y tabletas.
-            p(data-aos="fade-down") Entre las muchas ventajas de la plataforma #[em Power BI], se destacan:
+            p(data-aos="fade-down") Es una herramienta de inteligencia de negocios, basada en la nube, que permite enlazar diferentes fuentes de datos, analizarlos y presentar dicho análisis a través de informes y paneles. Power BI, está disponible a través de aplicación de escritorio, como SaaS (<i>Software as a Service</i>) y como aplicación móvil para teléfonos y tabletas. 
+            p(data-aos="fade-down") Entre las muchas ventajas de la plataforma Power BI, se destacan:
             ul.lista-ul
               li
-                i.fas.fa-chevron-right(style="color:#000000")
-                |Su interfaz intuitiva permite visualizar datos e interpretarlos de una forma fácil y ágil.
+                i.fas.fa-angle-right
+                p.mb-0 Su interfaz intuitiva permite visualizar datos e interpretarlos de una forma fácil y ágil.
               li
-                i.fas.fa-chevron-right(style="color:#000000")
-                |Se integra fácilmente con plataformas de la empresa #[em Microsoft] como son #[em Sharepoint], #[em Office] 365 y #[em Dynamics] 365.
+                i.fas.fa-angle-right
+                p.mb-0 Se integra fácilmente con plataformas de la empresa Microsoft como son Sharepoint, Office 365 y Dynamics 365.
               li
-                i.fas.fa-chevron-right(style="color:#000000")
-                |El fabricante de la plataforma (#[em Microsoft]) garantiza la seguridad y privacidad de los datos ofreciendo controles de accesibilidad a nivel interno y externo.            
+                i.fas.fa-angle-right
+                p.mb-0 El fabricante de la plataforma Microsoft garantiza la seguridad y privacidad de los datos, ofreciendo controles de accesibilidad a nivel interno y externo.            
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 10
-              br
-              span #[em Interfaz Power BI]              
             figure
               img(src='@/assets/curso/temas/tema1/img25.png', alt='')
-            figcaption Nota. Reproducida de Power BI Desktop. Khanna (s.f).
+            figcaption Nota. Tomada de Khanna (s.f). https://powerbicdn.azureedge.net/cvt-9394a7615e76e3565238e1688022efbee201671e2cbb78c8d1b1df694b985908/pictures/pages/index/blade2/powerbi-001.jpg
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Power BI]
-            p(data-aos="fade-down") La plataforma es ofrecida con diferentes tipos de licencias: Licencia gratuita (#[em Power BI Desktop] y #[em Power BI Mobile]), Licencia Pro y Licencia #[em Premium] (estas últimas dos con costo). La opción gratuita, permite recopilar y analizar datos hasta de 70 fuentes diferentes y ofrece las mismas visualizaciones que la opción paga con la opción de exportar los reportes realizados en diferentes formatos. La principal limitante de esta licencia, es que no permite compartir las visualizaciones directamente con otros usuarios.
+            p(data-aos="fade-down") La plataforma es ofrecida con diferentes tipos de licencias: licencia gratuita (Power BI Desktop y Power BI Mobile), Licencia Pro y Licencia Premium (estas últimas dos con costo). La opción gratuita, permite recopilar y analizar datos hasta de 70 fuentes diferentes y ofrece las mismas visualizaciones que la opción paga con la opción de exportar los reportes realizados en diferentes formatos. El principal limitante de esta licencia, es que no permite compartir las visualizaciones directamente con otros usuarios.
           
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 10
-              br
-              span #[em Interfaz Power BI]              
             figure
               img(src='@/assets/curso/temas/tema1/img25.png', alt='')
             figcaption Nota. Reproducida de Power BI Desktop. Khanna (s.f).
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Google Charts]
-            p(data-aos="fade-down") Proporciona una manera eficaz de visualizar datos en un sitio #[em web]. Desde gráficos de líneas simples hasta mapas de árboles jerárquicos complejos, la galería de gráficos de #[em Google Charts] proporciona una gran cantidad de tipos de gráficos listos para usar. La forma más común de usar #[em Google Charts] es con #[em JavaScript], incrustado en la página #[em web], cargando algunas bibliotecas de gráficos de #[em Google], enumerando los datos que se van a graficar, seleccionando opciones para personalizar el gráfico y finalmente creando un objeto de gráfico con la identificación que elija. Luego, más adelante en la página #[em web], creando un div con esa identificación para mostrar el gráfico de #[em Google].         
+            p(data-aos="fade-down") proporciona una manera eficaz de visualizar datos en un sitio web. Desde gráficos de líneas simples hasta mapas de árboles jerárquicos complejos, la galería de gráficos de Google Charts proporciona una gran cantidad de tipos de gráficos listos para usar. La forma más común de usar Google Charts es con JavaScript, incrustado en la página web, cargando algunas bibliotecas de gráficos de Google, enumerando los datos que se van a graficar, seleccionando opciones para personalizar el gráfico y, finalmente, creando un objeto de gráfico con la identificación que elija. Luego, más adelante en la página web, creando un &lt;div&gt; con esa identificación para mostrar el gráfico de Google. 
+            p(data-aos="fade-down") El código debe ser incluido en un archivo .html y visualizado desde un navegador web.               
             .row
               .col-lg-12
                 a.anexo.mb-4(:href="obtenerLink('/downloads/googlecharts.pdf')" target="_blank")
@@ -396,13 +368,9 @@
                     img(src='@/assets/curso/temas/tema1/img28.png', alt='')
             
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 11
-              br
-              span #[em Gráfico con Google Chart (Circular)]              
             figure
               img(src='@/assets/curso/temas/tema1/img26.png', alt='')
-            figcaption Nota. Reproducida de Power BI Desktop. Khanna (s.f).
+
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -412,26 +380,22 @@
                 .col-lg-12
                   .row.justify-content-around.align-items-center            
                     .col-sm.mb-6.mb-sm-0
-                      p.mb-0 Se incluye el siguiente enlace para descarga directa del archivo en html con el código. (Archivo: chart.html)
+                      p.mb-0 Se incluye el siguiente enlace para descarga directa del archivo en html con el código. (Archivo: chart.html).
                     .col-auto
                       a.boton.boton--b(:href="('https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/quick_start')" target="_blank")
                         span Enlace Web
                         i.fas.fa-link                
-            p(data-aos="fade-down") El gráfico generado con este código es uno interactivo (el usuario puede ubicar el puntero del mouse sobre las zonas del gráfico o las etiquetas para ver más información).            
+            p(data-aos="fade-down") El gráfico generado con este código, es interactivo (el usuario puede ubicar el puntero del mouse sobre las zonas del gráfico o las etiquetas para ver más información).          
             
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 12
-              br
-              span #[em Gráfico con Google Chart (Barras)]
             figure
               img(src='@/assets/curso/temas/tema1/img29.png', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Google Charts]            
-            p(data-aos="fade-down") Para cambiar el tipo de gráfico y usar por ejemplo uno de barras, solo se debe modificar la línea #[em google.visualization.PieChart] donde se especifica que es una gráfica circular y usar #[em google.visualization.BarChart], para usar un gráfico de barras. La selección del tipo de gráfico dependerá del tipo de información a presentar, buscando que las visualizaciones seleccionadas faciliten la comprensión de la información.
-            p(data-aos="fade-right") Para conocer más de esta herramienta, consultar el sitio #[em web Google Charts]. 
+            p(data-aos="fade-down") Para cambiar el tipo de gráfico y usar por ejemplo uno de barras, solo se debe modificar la línea google.visualization.PieChart donde se especifica que es una gráfica circular y usar google.visualization.BarChart, para usar un gráfico de barras. La selección del tipo de gráfico dependerá del tipo de información a presentar, buscando que las visualizaciones seleccionadas faciliten la comprensión de la información.
+            p(data-aos="fade-right") Para conocer más de esta herramienta, consultar el sitio web Google Charts.  
             .row.mb-3
               .col-lg-8
                 a.anexo.mb-4.mb-lg-0(href="https://developers-dot-devsite-v2-prod.appspot.com/chart" target="_blank")
@@ -439,82 +403,56 @@
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
                     p Enlace #[em web]. Muestra datos en vivo en tu sitio.
-            p(data-aos="fade-right") En la parte superior derecha se puede modificar el idioma del sitio #[em web] para facilitar su consulta.
+            p(data-aos="fade-right") En la parte superior derecha se puede modificar el idioma del sitio web para facilitar su consulta.
             
           .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 12
-              br
-              span #[em Gráfico con Google Chart (Barras)]
             figure
               img(src='@/assets/curso/temas/tema1/img29.png', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Qlik Desktop]
-            p(data-aos="fade-down") Es una aplicación, para el sistema operativo #[em Windows], que permite crear visualizaciones, gráficos, cuadros de mando interactivos (#[em dashboards]) e informes para uso local y sin conexión. Esta herramienta, está desarrollada con el lenguaje de programación R, lenguaje de código abierto usado para el análisis estadístico y procesos de ciencias de datos.
+            p(data-aos="fade-down") Es una aplicación para el sistema operativo Windows, que permite crear visualizaciones, gráficos, cuadros de mando interactivos (<i>dashboards</i>) e informes para uso local y sin conexión. Esta herramienta, está desarrollada con el lenguaje de programación R, lenguaje de código abierto usado para el análisis estadístico y procesos de ciencias de datos.
             p(data-aos="fade-right") Su aplicación va desde los temas relacionados con finanzas y recursos humanos, hasta de #[em marketing] y ventas. Procesos que diariamente generan datos valiosos y susceptibles de ser explorados y aprovechados para hacer más competitiva la organización.
-          .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 13
-              br
-              span #[em Interfaz Qlik]              
+          .col-md-6           
             figure
               img(src='@/assets/curso/temas/tema1/img30.png', alt='')
-            figcaption Nota. Reproducida de How do I create a visualization. QliK (2017). 
+            figcaption Nota. Tomada de QliK (2017). https://learning.qlik.com/pluginfile.php/98829/mod_resource/content/9/Create_Visualizations/Create_Visualizations.html
 
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Plotly]
-            p(data-aos="fade-down") Es una librería de código abierto disponible para varios lenguajes entre ellos #[em Python], #[em Java], R y #[em Matlab], entre otros. Por lo general, es más utilizada en #[em Python] al ser este uno de los lenguajes más populares para desarrollo relacionados con #[em machine learning] e inteligencia artificial. Esta librería, soporta más de 40 tipos diferentes de gráficos para uso estadístico, financiero, geográfico y científico.
-            p(data-aos="fade-right") #[em Plotly] permite a los usuarios de #[em Python] crear visualizaciones interactivas basadas en #[em web] que pueden ser usadas en un cuaderno #[em Jupyter], guardadas como archivos HTML independientes o incluidas en aplicaciones #[em web] construidas con #[em Python] y la librería #[em MDASH].
-          .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 14
-              br
-              span #[em Librería Plotly (Documentación)]              
+            p(data-aos="fade-down") Es una librería de código abierto, disponible para varios lenguajes entre ellos Python, Java, R y Matlab, entre otros. Por lo general, es más utilizada en Python al ser este uno de los lenguajes más populares para desarrollo, relacionados con <i>machine learning</i> e inteligencia artificial. Esta librería, soporta más de 40 tipos diferentes de gráficos para uso estadístico, financiero, geográfico y científico.
+            p(data-aos="fade-right") Plotly permite a los usuarios de Python crear visualizaciones interactivas basadas en web que pueden ser usadas en un cuaderno Jupyter, guardadas como archivos HTML independientes o incluidas en aplicaciones web construidas con Python y la librería DASH.
+          .col-md-6            
             figure
               img(src='@/assets/curso/temas/tema1/img31.png', alt='')
-            figcaption Nota. Reproducida de Graphing libraries. Geomapik (2019).
+            figcaption Nota. Tomada de Geomapik (2019). http://www.geomapik.com/wp-content/uploads/2019/08/Screenshot_20190806_110520.png 
 
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Plotly]
             p(data-aos="fade-down") Permite también la creación de gráficos de mapas usados en proyectos de ciencias de datos cuando se tienen datos geográficos; por ejemplo, para representar frecuencias (mapas térmicos).
-          .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 15
-              br
-              span #[em Ejemplo mapa creado con Plotly]              
+          .col-md-6            
             figure
               img(src='@/assets/curso/temas/tema1/img32.png', alt='')
-            figcaption Nota. Reproducida de Graphing libraries. Geomapik (2019). 
 
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Looker Studio]
-            p(data-aos="fade-down") Conocida anteriormente como “#[em Google Data Studio]”, #[em Looker Studio] es una herramienta que permite conectar fuentes de datos para crear cuadros de mando interactivos (#[em dashboards]) orientada a la inteligencia de negocios y a la toma de decisiones a nivel empresarial.
-          .col-md-6
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 16
-              br
-              span #[em Interfaz de trabajo Looker Studio]              
+            p(data-aos="fade-down") Conocida anteriormente como “Google Data Studio”, Looker Studio es una herramienta que permite conectar fuentes de datos para crear cuadros de mando interactivos (<i>dashboards</i>) orientada a la inteligencia de negocios y a la toma de decisiones a nivel empresarial.
+          .col-md-6            
             figure
               img(src='@/assets/curso/temas/tema1/img33.png', alt='')
-            figcaption Nota. Reproducida de Google Analytics Marketing Website. (s.f).
+            figcaption Nota. Tomada de Google Analytics Marketing Website (s.f). https://datastudio.google.com/u/0/reporting/0B_U5RNpwhcE6SF85TENURnc4UjA/preview/ 
 
-    Separador
-
-    .row
-      .col-xl-12       
-    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.3	 Creación de #[em dashboards]
+    h3(data-aos="zoom-in-left").my-5  Creación de #[em dashboards]
 
     .row.justify-content-center.mb-5
       .col-md-2.bloque_vertical1.d-none.d-md-block.mb-md-0
       .col-md-10.mb-md-0
         .px-2
-          p.mb-0 Un dashboard (o tablero de control) es una herramienta para la gestión de la información que permite monitorear y analizar de forma visual y centralizada los indicadores claves de desempeño (KPIs), métricas y demás datos importantes para la organización. Es entonces, una especie de “resumen” que recopila los principales datos y los presenta en stakeholders para que puedan consultar solo la información necesaria. Entre las principales características de un #[em dashboard] se encuentran:
+          p.mb-0 Un <i>dashboard</i> (o tablero de control) es una herramienta para la gestión de la información, que permite monitorear y analizar, de forma visual y centralizada, los indicadores claves de desempeño (KPIs), métricas y demás datos importantes para la organización. Es entonces, una especie de “resumen” que recopila los principales datos y los presenta en <i>stakeholders</i> para que se pueda consultar solo la información necesaria. Entre las principales características de un <i>dashboard</i> se encuentran:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
@@ -537,27 +475,25 @@
         p(data-aos="fade-right") A continuación, se presentan los pasos sugeridos para la creación de un #[em dashboard] útil y eficaz para la organización.
     
     .row.justify-content-center.align-items-center.mb-5      
-      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/tema1/img36.svg", alt="alt").m-auto 
-      .col-lg-9
+      .col-lg-10
         TabsA.color-acento-botones.mb-5
-          .tarjeta.clr-paleYellow.p-4(titulo="Establecer el objetivo del <em>dashboard</em>")(style="background-color: #DBEEFE")
+          .tarjeta.clr-paleYellow.p-4(titulo="Establecer el <br>objetivo<br> del <em>dashboard</em>")(style="background-color: #DBEEFE")
             h4 Establecer el objetivo del
               em  dashboard
             p Para iniciar la creación del tablero de control es necesario saber cuál es el objetivo de éste, qué pregunta (o preguntas) de la organización queremos responder. Por ejemplo, ¿la organización quiere analizar las ventas para mejorarlas e incrementarlas para mejorar los ingresos?, ¿se quiere hacer seguimiento al avance y ejecución de los proyectos?
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Identificar el público objetivo")(style="background-color: #DBEEFE")
+          .tarjeta.clr-paleYellow.p-4(titulo="Identificar el público<br> objetivo")(style="background-color: #DBEEFE")
             h4 Identificar el público objetivo
-            p Es importante tener claridad sobre objetivo del 
-              em  dashboard
-              |  a diseñar. Cada área de la organización y sus colaboradores, tendrá diferentes conocimientos e intereses, y si esto no se tiene en cuenta, se corre el riesgo de presentar en ellos información diferente a la requerida o en términos que no sean fáciles de entender. 
+            p Es importante tener claridad sobre el objetivo del <i>dashboard</i> a diseñar. Cada área de la organización y sus colaboradores, tendrá diferentes conocimientos e intereses, y si esto no se tiene en cuenta, se corre el riesgo de presentar en ellos información diferente a la requerida o en términos que no sean fáciles de entender. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Definir las métricas")(style="background-color: #DBEEFE")
             h4 Definir las métricas         
-            p Se deben seleccionar las principales métricas que ayuden a dar respuesta a las preguntas formuladas o que estén relacionadas. Si el indicador seleccionado no aporta a la temática en cuestión, posiblemente genere ruido en la visualización y deba ser eliminado. Entre los indicadores seleccionados es importante incluir los KPI (#[em Key Performance Indicators]) o indicadores clave de desempeño utilizados por la organización para evaluar su éxito en alcanzar diversos objetivos.
+            p Se deben seleccionar las principales métricas que ayuden a dar respuesta a las preguntas formuladas o que estén relacionadas. Si el indicador seleccionado no aporta a la temática en cuestión, posiblemente genere ruido en la visualización y deba ser eliminado. Entre los indicadores seleccionados es importante incluir los KPI (Key Performance Indicators) o indicadores claves de desempeño, utilizados por la organización, para evaluar su éxito en alcanzar diversos objetivos.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Diseñar e implementar el <em>dashboard</em>")(style="background-color: #DBEEFE")
+          .tarjeta.clr-paleYellow.p-4(titulo="Diseñar e <br>implementar<br>  el <em>dashboard</em>")(style="background-color: #DBEEFE")
             h4 Diseñar e implementar el #[em dashboard]
             p Una vez definidas las métricas e información a presentar, y teniendo en cuenta la herramienta a emplear, se definirán las herramientas gráficas adecuadas según el tipo de información y el público objetivo. Es muy importante, antes de publicar el acceso al tablero de control, validar la calidad y veracidad de la información presentada, confirmar que las visualizaciones seleccionadas se muestran correctamente y que la información presentada responde a los objetivos definidos en el primer paso.
     .row.justify-content-center.align-items-center.mb-5
@@ -566,22 +502,17 @@
     figure
           img(src="@/assets/curso/temas/tema1/img37.png", alt="alt")
         
-    Separador
-
-    .row
-      .col-xl-12       
-    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2.my-5 1.4	 Tipos de fuentes de información según su origen
+    h3(data-aos="zoom-in-left").my-5  Tipos de fuentes de información según su origen
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-left")
           .bloque-texto-g__img(:style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img38.png')})`}")
           .bloque-texto-g__texto.p-4
-            p Los datos a utilizar, en los proyectos de ciencias de datos, pueden tener diferentes orígenes o fuentes, siendo necesaria para cada una utilizar diversas metodologías de captura y procesamiento según sean estructurados o no. Los datos estructurados son aquellos que tienen un formato definido y específico (como el que se encuentra en las bases de datos), mientras que los datos no estructurados no tienen una estructura o formato fijo haciendo más complicada su gestión (cabe anotar que más del 80% de los datos de una organización son de este tipo).
+            p Los datos a utilizar en los proyectos de ciencias de datos, pueden tener diferentes orígenes o fuentes, siendo necesario para cada una, utilizar diversas metodologías de captura y procesamiento, según sean estructurados o no. Los datos estructurados son aquellos que tienen un formato definido y específico (como el que se encuentra en las bases de datos), mientras que los datos no estructurados no tienen una estructura o formato fijo haciendo más complicada su gestión (cabe anotar que más del 80 % de los datos de una organización son de este tipo).
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        p(data-aos="fade-right") Según su origen se pueden clasificar las fuentes de información como:
+        p(data-aos="fade-right") Según su origen, se pueden clasificar las fuentes de información como:
     
     .tarjeta.tarjeta--verde.p-4.mb-4
       LineaTiempoC.color-acento-botones(text-small)
@@ -596,7 +527,7 @@
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 2")
           .col-md-6.mb-4.mb-md-0
             h3 Máquina a máquina
-            p Son aquellos datos compartidos directamente entre dos o más dispositivos como lo permite el Internet de las cosas (#[em Iot]). Por ejemplo, los #[em chips] NFC (#[em Near Field Communication]) que permiten la transmisión de datos de forma inalámbrica y segura con dispositivos como el teléfono celular para la realización de pagos sin contacto.
+            p son aquellos datos compartidos directamente entre dos o más dispositivos como lo permite el Internet de las cosas (IoT). Por ejemplo, los <i>chips</i> NFC (Near Field Communication) que permiten la transmisión de datos de forma inalámbrica y segura con dispositivos como el teléfono celular para la realización de pagos sin contacto.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img40.png', alt='')
@@ -604,7 +535,7 @@
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 3")
           .col-md-6.mb-4.mb-md-0
             h3 Datos de transacciones
-            p Son los datos que se generan y registran en los procesos de venta y facturación de la organización y demás operaciones habituales. Pueden ser registrados usando software diseñado para tal fin o todavía en algunos casos de forma física y manual.
+            p son los datos que se generan y registran en los procesos de venta y facturación de la organización y demás operaciones habituales. Pueden ser registrados usando <i>software</i> diseñado para tal fin, o todavía en algunos casos, de forma física y manual.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img41.png', alt='')
@@ -620,7 +551,7 @@
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 5")
           .col-md-6.mb-4.mb-md-0
             h3 Medios sociales
-            p Son aquellos datos que se originan en la red y los medios digitales disponibles como redes sociales (#[em Facebook, Instagram, YouTube, Twitter, LinkedIn]), buscadores (#[em Google, Bing, Yahoo]) y sitios #[em web].
+            p Son aquellos datos que se originan en la red y los medios digitales disponibles como redes sociales (Facebook, Instagram, YouTube, Twitter, LinkedIn), buscadores (Google, Bing, Yahoo) y sitios web.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img43.png', alt='')

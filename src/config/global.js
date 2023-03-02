@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Visualización de datos',
     descripcionCurso:
-      'La visualización de datos es la representación de la información de manera gráfica mediante el uso de herramientas visuales como gráficos, mapas y tableros de control, permitiendo así una mejor comunicación de los resultados. En la ciencia de datos las técnicas de visualización son de gran importancia para el análisis de la información y la toma de decisiones. ',
+      'La visualización de datos es la representación gráfica de la información, mediante el uso de herramientas visuales como gráficos, mapas y tableros de control, permitiendo así una mejor comunicación de los resultados. En la ciencia de datos las técnicas de visualización, son de gran importancia para el análisis de datos y la toma de decisiones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -43,33 +43,6 @@ export default {
         numero: '1',
         titulo: 'Ventajas y beneficios de la visualización de datos',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Selección de gráficos según el tipo de datos',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo:
-              'Herramientas de creación de visualización (estáticas e interactivas)',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Creación de <em>dashboards</em>',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Tipos de fuentes de información según su origen',
-            hash: 't_1_4',
-          },
-        ],
       },
 
       {
@@ -78,21 +51,6 @@ export default {
         numero: '2',
         titulo: 'Despliegue de visualizaciones en Internet',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo:
-              'Servicios para despliegue de <em>dashboards</em> en Internet',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Proceso de despliegue de <em>dashboards</em>',
-            hash: 't_2_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -137,7 +95,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tipos de visualizaciones en <em>Power BI</em>',
+      tema: 'Ventajas y beneficios de la visualización de datos',
       referencia:
         'Microsoft Learn. (2022). <em>Tipos de visualización en Power BI</em>.',
       tipo: 'Sitio <em>web</em>',
@@ -145,19 +103,19 @@ export default {
         'https://learn.microsoft.com/es-es/power-bi/visuals/power-bi-visualization-types-for-reports-and-q-and-a',
     },
     {
-      tema: '<em>Tableau Public</em>',
+      tema: 'Ventajas y beneficios de la visualización de datos',
       referencia: '<em>Tableau public. (2022). Discover</em>.',
       tipo: 'Sitio <em>web</em>',
       link: 'https://public.tableau.com/app/discover',
     },
     {
-      tema: '<em>Google Charts</em>',
+      tema: 'Ventajas y beneficios de la visualización de datos',
       referencia: '<em>Google Developers</em>. (2022). <em>Charts</em>. ',
       tipo: 'Sitio <em>web</em>',
       link: 'https://developers-dot-devsite-v2-prod.appspot.com/chart ',
     },
     {
-      tema: 'CRISP-DM',
+      tema: 'Ventajas y beneficios de la visualización de datos',
       referencia:
         'IBM. (2021). <em>Conceptos básicos de ayuda de CRISP DM</em>. ',
       tipo: 'Sitio <em>web</em>',
@@ -194,12 +152,12 @@ export default {
     {
       termino: '<em>HTML</em>',
       significado:
-        'lenguaje de marcado de hipertexto, del inglés <em>HyperText Markup Language</em> es el código que se utilizar para estructurar una página <em>web</em> y sus contenidos.',
+        'lenguaje de marcado de hipertexto, del inglés HyperText Markup Language es el código que se utilizar para estructurar una página web y sus contenidos.',
     },
     {
       termino: '<em>KPI</em>',
       significado:
-        'indicador clave de desempeño, del inglés <em>Key Perfomance Indicator</em> es una métrica que se emplea para resumir la información sobre la eficacia y productividad de las acciones que se llevan a cabo en una organización.',
+        'indicador clave de desempeño, del inglés Key Perfomance Indicator es una métrica que se emplea para resumir la información sobre la eficacia y productividad de las acciones que se llevan a cabo en una organización.',
     },
     {
       termino: 'Librería',
@@ -226,7 +184,7 @@ export default {
     },
     {
       referencia:
-        'García, J. (2018). Ciencia de datos. <em>Técnicas analíticas y aprendizaje estadístico en un enfoque práctico</em>. Editorial Altaria.',
+        'García, J. (2018). <em>Ciencia de datos. Técnicas analíticas y aprendizaje estadístico en un enfoque práctico</em>. Editorial Altaria.',
       link:
         'https://www-alphaeditorialcloud-com.bdigital.sena.edu.co/reader/ciencia-de-datos?location=1',
     },
@@ -243,7 +201,6 @@ export default {
     {
       referencia:
         'Joyanes, L. (2015). <em>Sistemas de información en la empresa</em>. Alfaomega',
-      link: '',
     },
     {
       referencia: 'Khanna (s.f). <em>Power BI Desktop</em>.',
@@ -262,8 +219,7 @@ export default {
     },
     {
       referencia:
-        'Orbegozo, B. (2019). Gestión de bases de datos con SQL, MySQL y Access. Alfaomega.',
-      link: '',
+        'Orbegozo, B. (2019). <i>Gestión de bases de datos con SQL, MySQL y Access</i>. Alfaomega.',
     },
     {
       referencia:
@@ -280,7 +236,7 @@ export default {
     {
       referencia:
         'TuDashboard. (2 de agosto de 2021). <em>Ejemplos de gráficas para un dashboard</em>.',
-      link: '',
+      link: 'https://tudashboard.com/tipos-de-visualizacion-de-datos/',
     },
   ],
   creditos: {
