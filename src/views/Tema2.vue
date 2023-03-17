@@ -105,7 +105,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img13.svg', alt='')
 
-    .row.justify-content-center.align-items-center.mb-5           
+    .row.justify-content-center.align-items-center         
       .col-lg-10
         .cajon.color-acento-botones.p-4.mb-4(data-aos="flip-down")
           p(data-aos="fade-down").mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.         

@@ -200,7 +200,6 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/5.svg', alt='')
-              figcaption Nota. Reproducida de @analisisweb. Recuperado el 17 de noviembre de 2022
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -219,7 +218,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/7.svg', alt='')
-        
+              figcaption Nota. Tomado de  https://support.content.office.net/en-us/media/b3bfff05-380e-4dd9-b49b-7a2bfd128870.png
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 Diagrama de caja
@@ -228,7 +227,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/8.svg', alt='')
-
+              figcaption Nota. Tomado de https://pro.arcgis.com/es/pro-app/latest/help/analysis/geoprocessing/charts/GUID-0E2C3730-C535-40CD-8152-80D794A996A7-web.png
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[EM Geomaps]
@@ -359,7 +358,7 @@
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Google Charts]
-            p(data-aos="fade-down") proporciona una manera eficaz de visualizar datos en un sitio web. Desde gráficos de líneas simples hasta mapas de árboles jerárquicos complejos, la galería de gráficos de Google Charts proporciona una gran cantidad de tipos de gráficos listos para usar. La forma más común de usar Google Charts es con JavaScript, incrustado en la página web, cargando algunas bibliotecas de gráficos de Google, enumerando los datos que se van a graficar, seleccionando opciones para personalizar el gráfico y, finalmente, creando un objeto de gráfico con la identificación que elija. Luego, más adelante en la página web, creando un &lt;div&gt; con esa identificación para mostrar el gráfico de Google. 
+            p(data-aos="fade-down") Proporciona una manera eficaz de visualizar datos en un sitio web. Desde gráficos de líneas simples hasta mapas de árboles jerárquicos complejos, la galería de gráficos de Google Charts proporciona una gran cantidad de tipos de gráficos listos para usar. La forma más común de usar Google Charts es con JavaScript, incrustado en la página web, cargando algunas bibliotecas de gráficos de Google, enumerando los datos que se van a graficar, seleccionando opciones para personalizar el gráfico y, finalmente, creando un objeto de gráfico con la identificación que elija. Luego, más adelante en la página web, creando un &lt;div&gt; con esa identificación para mostrar el gráfico de Google. 
             p(data-aos="fade-down") El código debe ser incluido en un archivo .html y visualizado desde un navegador web.               
             .row
               .col-lg-12
@@ -481,20 +480,15 @@
       .col-lg-10
         TabsA.color-acento-botones.mb-5
           .tarjeta.clr-paleYellow.p-4(titulo="Establecer el <br>objetivo<br> del <em>dashboard</em>")(style="background-color: #DBEEFE")
-            h4 Establecer el objetivo del
-              em  dashboard
             p Para iniciar la creación del tablero de control es necesario saber cuál es el objetivo de éste, qué pregunta (o preguntas) de la organización queremos responder. Por ejemplo, ¿la organización quiere analizar las ventas para mejorarlas e incrementarlas para mejorar los ingresos?, ¿se quiere hacer seguimiento al avance y ejecución de los proyectos?
 
           .tarjeta.clr-paleYellow.p-4(titulo="Identificar el público<br> objetivo")(style="background-color: #DBEEFE")
-            h4 Identificar el público objetivo
             p Es importante tener claridad sobre el objetivo del <i>dashboard</i> a diseñar. Cada área de la organización y sus colaboradores, tendrá diferentes conocimientos e intereses, y si esto no se tiene en cuenta, se corre el riesgo de presentar en ellos información diferente a la requerida o en términos que no sean fáciles de entender. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Definir las métricas")(style="background-color: #DBEEFE")
-            h4 Definir las métricas         
-            p Se deben seleccionar las principales métricas que ayuden a dar respuesta a las preguntas formuladas o que estén relacionadas. Si el indicador seleccionado no aporta a la temática en cuestión, posiblemente genere ruido en la visualización y deba ser eliminado. Entre los indicadores seleccionados es importante incluir los KPI (Key Performance Indicators) o indicadores claves de desempeño, utilizados por la organización, para evaluar su éxito en alcanzar diversos objetivos.
+                  p Se deben seleccionar las principales métricas que ayuden a dar respuesta a las preguntas formuladas o que estén relacionadas. Si el indicador seleccionado no aporta a la temática en cuestión, posiblemente genere ruido en la visualización y deba ser eliminado. Entre los indicadores seleccionados es importante incluir los KPI (Key Performance Indicators) o indicadores claves de desempeño, utilizados por la organización, para evaluar su éxito en alcanzar diversos objetivos.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Diseñar e <br>implementar<br>  el <em>dashboard</em>")(style="background-color: #DBEEFE")
-            h4 Diseñar e implementar el #[em dashboard]
             p Una vez definidas las métricas e información a presentar, y teniendo en cuenta la herramienta a emplear, se definirán las herramientas gráficas adecuadas según el tipo de información y el público objetivo. Es muy importante, antes de publicar el acceso al tablero de control, validar la calidad y veracidad de la información presentada, confirmar que las visualizaciones seleccionadas se muestran correctamente y que la información presentada responde a los objetivos definidos en el primer paso.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
@@ -527,7 +521,7 @@
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 2")
           .col-md-6.mb-4.mb-md-0
             h3 Máquina a máquina
-            p son aquellos datos compartidos directamente entre dos o más dispositivos como lo permite el Internet de las cosas (IoT). Por ejemplo, los <i>chips</i> NFC (Near Field Communication) que permiten la transmisión de datos de forma inalámbrica y segura con dispositivos como el teléfono celular para la realización de pagos sin contacto.
+            p Son aquellos datos compartidos directamente entre dos o más dispositivos como lo permite el Internet de las cosas (IoT). Por ejemplo, los <i>chips</i> NFC (Near Field Communication) que permiten la transmisión de datos de forma inalámbrica y segura con dispositivos como el teléfono celular para la realización de pagos sin contacto.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img40.png', alt='')
@@ -535,7 +529,7 @@
         .row.justify-content-center.align-items-center.mb-5(titulo="Paso 3")
           .col-md-6.mb-4.mb-md-0
             h3 Datos de transacciones
-            p son los datos que se generan y registran en los procesos de venta y facturación de la organización y demás operaciones habituales. Pueden ser registrados usando <i>software</i> diseñado para tal fin, o todavía en algunos casos, de forma física y manual.
+            p Son los datos que se generan y registran en los procesos de venta y facturación de la organización y demás operaciones habituales. Pueden ser registrados usando <i>software</i> diseñado para tal fin, o todavía en algunos casos, de forma física y manual.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema1/img41.png', alt='')
