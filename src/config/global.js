@@ -152,7 +152,7 @@ export default {
     {
       termino: '<em>HTML</em>',
       significado:
-        'lenguaje de marcado de hipertexto, del inglés HyperText Markup Language es el código que se utilizar para estructurar una página web y sus contenidos.',
+        'lenguaje de marcado de hipertexto, del inglés HyperText Markup Language es el código que se utiliza para estructurar una página web y sus contenidos.',
     },
     {
       termino: '<em>KPI</em>',
