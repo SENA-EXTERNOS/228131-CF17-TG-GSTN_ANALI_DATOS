@@ -492,7 +492,7 @@
       .col-lg-12
         p(data-aos="fade-right") Para seleccionar la gráfica adecuada según el tipo de variable(s), se sugiere revisar la siguiente infografía:
     figure
-          img(src="@/assets/curso/temas/tema1/img37.png", alt="alt")
+          img(src="@/assets/curso/temas/tema1/img37-.png", alt="alt")
         
     h3(data-aos="zoom-in-left").my-5  Tipos de fuentes de información según su origen
     
