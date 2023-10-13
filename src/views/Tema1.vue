@@ -63,9 +63,7 @@
         p A continuación, se presenta una infografía que le permitirá entender la relación entre los datos, su funcionalidad y diseño, para la realización de excelentes visualizaciones de datos:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-2
-        p(data-aos="fade-right") #[em What Makes A Good]
-        h3 Data visualization
+      h3.text-center Visualización de datos
     .row.justify-content-center.align-items-center
       .col-lg-6
         ImagenInfografica.color-secundario.mb-5
@@ -162,7 +160,7 @@
             h3 Tablas
             p(data-aos="fade-down").mb-4 Las tablas son una de las formas de visualización más empleadas, permiten presentar los datos en filas y columnas para ver detalles y comparar valores. Por lo general, las columnas corresponden a atributos o propiedades del elemento descrito y las filas corresponden a registros independientes de dicho elemento. Este tipo de visualización, permite también realizar filtros para mostrar solo la información de interés, o de ordenar los valores, según algunos de los atributos seleccionados.
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/1.svg', alt='')
         .row.justify-content-center.align-items-center.my-lg-4              
@@ -170,7 +168,7 @@
             h3 Gráficos de barras
             p(data-aos="fade-down").mb-4 Es una forma de representar gráficamente un conjunto de datos o variables, mediante el uso de barras rectangulares (verticales u horizontales) con longitudes proporcionales a los valores que representan. Se utilizan como una forma de resumir un conjunto de datos por categorías (variable cualitativa), generalmente ubicadas en el eje horizontal “X” y su frecuencia de aparición ubicada en el eje vertical “Y”.
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/2.svg', alt='')
         
@@ -179,7 +177,7 @@
             h3 Gráficos de líneas
             p(data-aos="fade-down").mb-4 Son especialmente útiles para mostrar tendencias a lo largo de un periodo de tiempo. Un gráfico de línea, permite mostrar una o varias series de datos en la misma figura, posibilitando la comparación entre sus comportamientos. Se representan dibujando primero, los puntos de los datos según sus valores y luego conectando una línea entre dichos puntos. Se utilizan generalmente, para representar datos continuos.
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/3.svg', alt='')
 
@@ -188,7 +186,7 @@
             h3 Gráfico circular o de torta
             p(data-aos="fade-down").mb-4 Los gráficos circulares se dividen en sectores donde cada uno muestra el tamaño de un fragmento de información relacionado (el tamaño del sector es proporcional a la cantidad que representa). Por lo general, este tipo de gráficos se utiliza para mostrar tamaños relativos de partes de un todo. Es útil cuando se comparan entre 3 y 5 categorías diferentes con valores diferentes y que sean fáciles de diferenciar.
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/4.svg', alt='')
         
@@ -197,7 +195,7 @@
             h3 Mapas de calor
             p(data-aos="fade-down").mb-4 Mapa de calor o <i>heatmap</i>, es una forma de visualización en formato tabular en donde, además de los números, se utiliza el color de las celdas para transmitir la magnitud relativa de los valores. En los mapas de calor, se puede usar la saturación del color para proporcionar pistas visuales que ayuden a localizar más fácilmente los puntos de interés (valores límites, por ejemplo). Por lo general, se utilizan los colores más oscuros para indicar baja actividad y los colores más brillantes para indicar alta actividad.
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/5.svg', alt='')
         
@@ -206,7 +204,7 @@
             h3 Gráficos de dispersión
             p(data-aos="fade-down").mb-4 Gráfico de dispersión o <i>scatterplot</i>, permite mostrar la relación entre dos variables porque se pueden configurar de tal forma, que una variable se muestre sobre el eje horizontal X y, la otra sobre el eje vertical Y y, de esta manera, visualizar si existe una relación. Si los elementos graficados forman una franja que se extiende desde la parte inferior izquierda hasta la parte superior derecha, lo más probable es que haya una correlación positiva entre esas dos variables. Si es difícil ver un patrón, es probable que no se tenga una correlación entre las variables graficadas.
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/6.svg', alt='')
         
@@ -215,7 +213,7 @@
             h3 #[em Treemap]
             p(data-aos="fade-down").mb-4 Un gráfico de árbol, proporciona una visión jerárquica de los datos y facilita la detección de patrones. Por ejemplo, en una tienda, cuáles artículos son los más vendidos. Las ramas del árbol están representadas por rectángulos y cada subrama se muestra como un rectángulo más pequeño. El gráfico de árbol muestra las categorías por color y proximidad y puede mostrar fácilmente, muchos datos que serían difíciles de ver con otros tipos de gráficos. Los gráficos de mapa de árbol son buenos para comparar las proporciones dentro de la jerarquía. Sin embargo, no son buenos para mostrar los niveles jerárquicos entre las categorías más grandes y cada punto de datos. 
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/7.svg', alt='')
               figcaption Nota. Tomado de  https://support.content.office.net/en-us/media/b3bfff05-380e-4dd9-b49b-7a2bfd128870.png
@@ -224,7 +222,7 @@
             h3 Diagrama de caja
             p(data-aos="fade-down").mb-4 El diagrama de caja o <i>box plot</i>, es un tipo de gráfico que permite visualizar y comparar la distribución y la tendencia central de valores numéricos mediante sus cuartiles, los cuales son los tres valores de la variable que dividen a un conjunto de datos ordenados, en cuatro partes iguales.
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/8.svg', alt='')
               figcaption Nota. Tomado de https://pro.arcgis.com/es/pro-app/latest/help/analysis/geoprocessing/charts/GUID-0E2C3730-C535-40CD-8152-80D794A996A7-web.png
@@ -233,7 +231,7 @@
             h3 #[EM Geomaps]
             p(data-aos="fade-down").mb-4 Los gráficos de mapa o <i>geomaps</i>, se utilizan, habitualmente, para comparar valores y mostrar categorías entre regiones geográficas. Los gráficos de mapa, son más útiles cuando los datos contienen información geográfica (países, regiones, estados, ciudades, códigos postales, etc.). Utilizando herramientas gratuitas como Google Maps, se pueden elaborar visualizaciones de datos geográficos en mapas interactivos y responsivos, teniendo mayor control sobre cómo se ubican los puntos en el mapa.
                 
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/img20.png', alt='')
               figcaption Nota. Adapatao de Maptive (2020). 
@@ -273,7 +271,7 @@
             h3 #[em Excel]
             p(data-aos="fade-down") Es un programa de hoja de cálculo, lanzado por la empresa Microsoft en el año de 1987. Es un <i>software</i> multiplataforma (funciona en sistemas operativos como Windows, MacOS, Android, iOS), que permite crear tablas, gráficos y otras visualizaciones. Facilita, de igual manera, de una forma sencilla y rápida, crear visualizaciones a partir de los datos existentes y personalizarlos, a gusto del usuario, pero tiene en su contra, el no estar diseñado ni optimizado para manipular grandes cantidades de datos, como puede ser requerido en la mayoría de los proyectos de ciencia de datos. 
             p(data-aos="fade-down") En sus últimas versiones el número total de filas y columnas en una hoja de cálculo es de 1.048.576 filas por 16.384 columnas. En caso de requerirse más filas (más registros), es necesario usar otra hoja u otro archivo de Excel, volviendo más complejo el procesamiento de la información.
-          .col-md-6
+          .col-md-6.px-4 
             figure
               img(src='@/assets/curso/temas/tema1/img23.png', alt='')
         .row.justify-content-center.align-items-center.my-lg-4              
@@ -290,7 +288,7 @@
                     p Enlace #[em web]. #[em Tableau Public]
             p(data-aos="fade-down") Para crear una visualización básica de datos en Tableau, se deben seguir los siguientes pasos:
             
-          .col-md-6
+          .col-md-6.px-4
             figure
               img(src='@/assets/curso/temas/tema1/img24.png', alt='')
               figcaption Nota. Tomada de Tableau Desktop (s.f). https://www.tableau.com/sites/default/files/2022-05/Products_Desktop_Intro.png 
@@ -322,7 +320,7 @@
               .col-xl-11
                 p #[b Explorar los datos]: una vez generada la vista, esta puede ser explorada modificando sus parámetros, aumentando o disminuyendo el nivel de detalles y aplicando filtros.
   
-          .col-md-6
+          .col-md-6.px-4
             figure
               img(src='@/assets/curso/temas/tema1/img24.png', alt='')
             figcaption Nota. Tomada de Tableau Desktop (s.f). https://www.tableau.com/sites/default/files/2022-05/Products_Desktop_Intro.png 
@@ -342,7 +340,7 @@
               li
                 i.fas.fa-angle-right
                 p.mb-0 El fabricante de la plataforma Microsoft garantiza la seguridad y privacidad de los datos, ofreciendo controles de accesibilidad a nivel interno y externo.            
-          .col-md-6
+          .col-md-6.px-4
             figure
               img(src='@/assets/curso/temas/tema1/img25.png', alt='')
             figcaption Nota. Tomada de Khanna (s.f). https://powerbicdn.azureedge.net/cvt-9394a7615e76e3565238e1688022efbee201671e2cbb78c8d1b1df694b985908/pictures/pages/index/blade2/powerbi-001.jpg
@@ -351,7 +349,7 @@
             h3 #[em Power BI]
             p(data-aos="fade-down") La plataforma es ofrecida con diferentes tipos de licencias: licencia gratuita (Power BI Desktop y Power BI Mobile), Licencia Pro y Licencia Premium (estas últimas dos con costo). La opción gratuita, permite recopilar y analizar datos hasta de 70 fuentes diferentes y ofrece las mismas visualizaciones que la opción paga con la opción de exportar los reportes realizados en diferentes formatos. El principal limitante de esta licencia, es que no permite compartir las visualizaciones directamente con otros usuarios.
           
-          .col-md-6
+          .col-md-6.px-4
             figure
               img(src='@/assets/curso/temas/tema1/img25.png', alt='')
             figcaption Nota. Reproducida de Power BI Desktop. Khanna (s.f).
@@ -366,7 +364,7 @@
                   figure
                     img(src='@/assets/curso/temas/tema1/img28.png', alt='')
             
-          .col-md-6
+          .col-md-6.px-4
             figure
               img(src='@/assets/curso/temas/tema1/img26.png', alt='')
 
@@ -386,7 +384,7 @@
                         i.fas.fa-link                
             p(data-aos="fade-down") El gráfico generado con este código, es interactivo (el usuario puede ubicar el puntero del mouse sobre las zonas del gráfico o las etiquetas para ver más información).          
             
-          .col-md-6
+          .col-md-6.px-4
             figure
               img(src='@/assets/curso/temas/tema1/img29.png', alt='')
         
@@ -404,7 +402,7 @@
                     p Enlace #[em web]. Muestra datos en vivo en tu sitio.
             p(data-aos="fade-right") En la parte superior derecha se puede modificar el idioma del sitio web para facilitar su consulta.
             
-          .col-md-6
+          .col-md-6.px-4
             figure
               img(src='@/assets/curso/temas/tema1/img29.png', alt='')
         
@@ -413,7 +411,7 @@
             h3 #[em Qlik Desktop]
             p(data-aos="fade-down") Es una aplicación para el sistema operativo Windows, que permite crear visualizaciones, gráficos, cuadros de mando interactivos (<i>dashboards</i>) e informes para uso local y sin conexión. Esta herramienta, está desarrollada con el lenguaje de programación R, lenguaje de código abierto usado para el análisis estadístico y procesos de ciencias de datos.
             p(data-aos="fade-right") Su aplicación va desde los temas relacionados con finanzas y recursos humanos, hasta de #[em marketing] y ventas. Procesos que diariamente generan datos valiosos y susceptibles de ser explorados y aprovechados para hacer más competitiva la organización.
-          .col-md-6           
+          .col-md-6.px-4           
             figure
               img(src='@/assets/curso/temas/tema1/img30.png', alt='')
             figcaption Nota. Tomada de QliK (2017). https://learning.qlik.com/pluginfile.php/98829/mod_resource/content/9/Create_Visualizations/Create_Visualizations.html
@@ -423,7 +421,7 @@
             h3 #[em Plotly]
             p(data-aos="fade-down") Es una librería de código abierto, disponible para varios lenguajes entre ellos Python, Java, R y Matlab, entre otros. Por lo general, es más utilizada en Python al ser este uno de los lenguajes más populares para desarrollo, relacionados con <i>machine learning</i> e inteligencia artificial. Esta librería, soporta más de 40 tipos diferentes de gráficos para uso estadístico, financiero, geográfico y científico.
             p(data-aos="fade-right") Plotly permite a los usuarios de Python crear visualizaciones interactivas basadas en web que pueden ser usadas en un cuaderno Jupyter, guardadas como archivos HTML independientes o incluidas en aplicaciones web construidas con Python y la librería DASH.
-          .col-md-6            
+          .col-md-6.px-4            
             figure
               img(src='@/assets/curso/temas/tema1/img31.png', alt='')
             figcaption Nota. Tomada de Geomapik (2019). http://www.geomapik.com/wp-content/uploads/2019/08/Screenshot_20190806_110520.png 
@@ -432,7 +430,7 @@
           .col-md-6.mb-4.mb-md-0
             h3 #[em Plotly]
             p(data-aos="fade-down") Permite también la creación de gráficos de mapas usados en proyectos de ciencias de datos cuando se tienen datos geográficos; por ejemplo, para representar frecuencias (mapas térmicos).
-          .col-md-6            
+          .col-md-6.px-4            
             figure
               img(src='@/assets/curso/temas/tema1/img32.png', alt='')
 
@@ -440,7 +438,7 @@
           .col-md-6.mb-4.mb-md-0
             h3 #[em Looker Studio]
             p(data-aos="fade-down") Conocida anteriormente como “Google Data Studio”, Looker Studio es una herramienta que permite conectar fuentes de datos para crear cuadros de mando interactivos (<i>dashboards</i>) orientada a la inteligencia de negocios y a la toma de decisiones a nivel empresarial.
-          .col-md-6            
+          .col-md-6.px-4           
             figure
               img(src='@/assets/curso/temas/tema1/img33.png', alt='')
             figcaption Nota. Tomada de Google Analytics Marketing Website (s.f). https://datastudio.google.com/u/0/reporting/0B_U5RNpwhcE6SF85TENURnc4UjA/preview/ 
@@ -486,7 +484,7 @@
             p Es importante tener claridad sobre el objetivo del <i>dashboard</i> a diseñar. Cada área de la organización y sus colaboradores, tendrá diferentes conocimientos e intereses, y si esto no se tiene en cuenta, se corre el riesgo de presentar en ellos información diferente a la requerida o en términos que no sean fáciles de entender. 
 
           .tarjeta.clr-paleYellow.p-4(titulo="Definir las métricas")(style="background-color: #DBEEFE")
-                  p Se deben seleccionar las principales métricas que ayuden a dar respuesta a las preguntas formuladas o que estén relacionadas. Si el indicador seleccionado no aporta a la temática en cuestión, posiblemente genere ruido en la visualización y deba ser eliminado. Entre los indicadores seleccionados es importante incluir los KPI (Key Performance Indicators) o indicadores claves de desempeño, utilizados por la organización, para evaluar su éxito en alcanzar diversos objetivos.
+                  p Se deben seleccionar las principales métricas que ayuden a dar respuesta a las preguntas formuladas o que estén relacionadas. Si el indicador seleccionado no aporta a la temática en cuestión, posiblemente genere ruido en la visualización y deba ser eliminado. Entre los indicadores seleccionados es importante incluir los KPI (<em>Key Performance Indicators</em>) o indicadores claves de desempeño, utilizados por la organización, para evaluar su éxito en alcanzar diversos objetivos.
 
           .tarjeta.clr-paleYellow.p-4(titulo="Diseñar e <br>implementar<br>  el <em>dashboard</em>")(style="background-color: #DBEEFE")
             p Una vez definidas las métricas e información a presentar, y teniendo en cuenta la herramienta a emplear, se definirán las herramientas gráficas adecuadas según el tipo de información y el público objetivo. Es muy importante, antes de publicar el acceso al tablero de control, validar la calidad y veracidad de la información presentada, confirmar que las visualizaciones seleccionadas se muestran correctamente y que la información presentada responde a los objetivos definidos en el primer paso.
