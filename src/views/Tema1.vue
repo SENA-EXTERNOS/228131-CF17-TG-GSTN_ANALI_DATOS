@@ -273,7 +273,7 @@
             p(data-aos="fade-down") En sus últimas versiones el número total de filas y columnas en una hoja de cálculo es de 1.048.576 filas por 16.384 columnas. En caso de requerirse más filas (más registros), es necesario usar otra hoja u otro archivo de Excel, volviendo más complejo el procesamiento de la información.
           .col-md-6.px-4 
             figure
-              img(src='@/assets/curso/temas/tema1/img23.png', alt='')
+              img(src='@/assets/curso/temas/tema1/1.png', alt='')
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
             h3 #[em Tableau]
@@ -290,7 +290,7 @@
             
           .col-md-6.px-4
             figure
-              img(src='@/assets/curso/temas/tema1/img24.png', alt='')
+              img(src='@/assets/curso/temas/tema1/2.png', alt='')
               figcaption Nota. Tomada de Tableau Desktop (s.f). https://www.tableau.com/sites/default/files/2022-05/Products_Desktop_Intro.png 
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -322,7 +322,7 @@
   
           .col-md-6.px-4
             figure
-              img(src='@/assets/curso/temas/tema1/img24.png', alt='')
+              img(src='@/assets/curso/temas/tema1/2.png', alt='')
             figcaption Nota. Tomada de Tableau Desktop (s.f). https://www.tableau.com/sites/default/files/2022-05/Products_Desktop_Intro.png 
         
         .row.justify-content-center.align-items-center.my-lg-4              
@@ -342,7 +342,7 @@
                 p.mb-0 El fabricante de la plataforma Microsoft garantiza la seguridad y privacidad de los datos, ofreciendo controles de accesibilidad a nivel interno y externo.            
           .col-md-6.px-4
             figure
-              img(src='@/assets/curso/temas/tema1/img25.png', alt='')
+              img(src='@/assets/curso/temas/tema1/3.png', alt='')
             figcaption Nota. Tomada de Khanna (s.f). https://powerbicdn.azureedge.net/cvt-9394a7615e76e3565238e1688022efbee201671e2cbb78c8d1b1df694b985908/pictures/pages/index/blade2/powerbi-001.jpg
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -351,7 +351,7 @@
           
           .col-md-6.px-4
             figure
-              img(src='@/assets/curso/temas/tema1/img25.png', alt='')
+              img(src='@/assets/curso/temas/tema1/3.png', alt='')
             figcaption Nota. Reproducida de Power BI Desktop. Khanna (s.f).
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -366,7 +366,7 @@
             
           .col-md-6.px-4
             figure
-              img(src='@/assets/curso/temas/tema1/img26.png', alt='')
+              img(src='@/assets/curso/temas/tema1/4.png', alt='')
 
         
         .row.justify-content-center.align-items-center.my-lg-4              
@@ -386,7 +386,7 @@
             
           .col-md-6.px-4
             figure
-              img(src='@/assets/curso/temas/tema1/img29.png', alt='')
+              img(src='@/assets/curso/temas/tema1/5.png', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -404,7 +404,7 @@
             
           .col-md-6.px-4
             figure
-              img(src='@/assets/curso/temas/tema1/img29.png', alt='')
+              img(src='@/assets/curso/temas/tema1/5.png', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -413,7 +413,7 @@
             p(data-aos="fade-right") Su aplicación va desde los temas relacionados con finanzas y recursos humanos, hasta de #[em marketing] y ventas. Procesos que diariamente generan datos valiosos y susceptibles de ser explorados y aprovechados para hacer más competitiva la organización.
           .col-md-6.px-4           
             figure
-              img(src='@/assets/curso/temas/tema1/img30.png', alt='')
+              img(src='@/assets/curso/temas/tema1/6.png', alt='')
             figcaption Nota. Tomada de QliK (2017). https://learning.qlik.com/pluginfile.php/98829/mod_resource/content/9/Create_Visualizations/Create_Visualizations.html
 
         .row.justify-content-center.align-items-center.my-lg-4              
@@ -423,7 +423,7 @@
             p(data-aos="fade-right") Plotly permite a los usuarios de Python crear visualizaciones interactivas basadas en web que pueden ser usadas en un cuaderno Jupyter, guardadas como archivos HTML independientes o incluidas en aplicaciones web construidas con Python y la librería DASH.
           .col-md-6.px-4            
             figure
-              img(src='@/assets/curso/temas/tema1/img31.png', alt='')
+              img(src='@/assets/curso/temas/tema1/7.png', alt='')
             figcaption Nota. Tomada de Geomapik (2019). http://www.geomapik.com/wp-content/uploads/2019/08/Screenshot_20190806_110520.png 
 
         .row.justify-content-center.align-items-center.my-lg-4              
@@ -432,7 +432,7 @@
             p(data-aos="fade-down") Permite también la creación de gráficos de mapas usados en proyectos de ciencias de datos cuando se tienen datos geográficos; por ejemplo, para representar frecuencias (mapas térmicos).
           .col-md-6.px-4            
             figure
-              img(src='@/assets/curso/temas/tema1/img32.png', alt='')
+              img(src='@/assets/curso/temas/tema1/8.png', alt='')
 
         .row.justify-content-center.align-items-center.my-lg-4              
           .col-md-6.mb-4.mb-md-0
@@ -440,7 +440,7 @@
             p(data-aos="fade-down") Conocida anteriormente como “Google Data Studio”, Looker Studio es una herramienta que permite conectar fuentes de datos para crear cuadros de mando interactivos (<i>dashboards</i>) orientada a la inteligencia de negocios y a la toma de decisiones a nivel empresarial.
           .col-md-6.px-4           
             figure
-              img(src='@/assets/curso/temas/tema1/img33.png', alt='')
+              img(src='@/assets/curso/temas/tema1/9.png', alt='')
             figcaption Nota. Tomada de Google Analytics Marketing Website (s.f). https://datastudio.google.com/u/0/reporting/0B_U5RNpwhcE6SF85TENURnc4UjA/preview/ 
 
     h3(data-aos="zoom-in-left").my-5  Creación de #[em dashboards]
